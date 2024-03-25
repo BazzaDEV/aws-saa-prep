@@ -200,3 +200,34 @@
   - Red sorted sets guarantee uniqueness and element ordering
   - Each time a new element is added, it is ranked in real-time, then added in correct order
 
+# Route 53
+
+## I had trouble with these:
+
+- CNAME vs Alias record
+- Routing policies - failover - what is active-passive?
+- Routing policies - multi-value - how does it work? use cases? ELB relevance?
+
+# Classic Solutions Architecture Discussions
+
+## I had trouble with these:
+
+- General note: watch these videos to understand the slides
+- 3-tier web app - what are the tiers? I think typically of frontend, backend, database
+
+# Elastic Beanstalk
+
+## I had trouble with these:
+
+- Web server tier vs. worker tier
+
+# S3
+
+## I had trouble with these:
+
+- S3 replication (CRR & SRR) - use cases?
+- S3 event notifications
+- S3 byte-range fetches - use cases?
+- S3 Select & S3 Glacier Select
+- S3 Access Points - VPC Origin
+- S3 Object Lambda
